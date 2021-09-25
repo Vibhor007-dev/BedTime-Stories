@@ -86,8 +86,8 @@ export default class ReadStoryScreen extends React.Component {
           
           <FlatList
                 data={this.state.search === "" ?  this.state.allStories: this.state.dataSource}
-                //renderItem={({ item }) => (
-                renderItem={( item ) => (
+                renderItem={({ item }) => (
+                //renderItem={( item ) => (
                 //renderItem={({ item }) => {
                 // renderItem=>{({}){
                   <View style={styles.itemContainer}>
